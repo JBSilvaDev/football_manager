@@ -11,8 +11,7 @@ class _FootBallManager extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        
-        appBarTheme: AppBarTheme(color: Color.fromARGB(255, 3, 73, 130)),
+        appBarTheme: const AppBarTheme(color: Color.fromARGB(255, 3, 73, 130)),
       ),
       home: InitialScreen(),
     );
